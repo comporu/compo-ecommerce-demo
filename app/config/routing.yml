@@ -1,0 +1,5 @@
+compo_core:
+    resource: "@CompoCoreBundle/Resources/config/app/routing.yml"
+
+compo_ecommerce:
+    resource: "@CompoEcommerceBundle/Resources/config/routing.yml"
