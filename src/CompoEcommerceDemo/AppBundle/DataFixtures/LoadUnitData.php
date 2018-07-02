@@ -70,7 +70,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'ШТ',
                 'shortNameInternational' => 'pc',
                 'literalNameInternational' => 'PCE',
-                'type' => 'integer'
+                'type' => 'integer',
             ],
             [
                 'name' => 'Упаковка',
@@ -78,7 +78,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'УПАК',
                 'shortNameInternational' => 'pkg',
                 'literalNameInternational' => 'NMP',
-                'type' => 'integer'
+                'type' => 'integer',
             ],
             [
                 'name' => 'Сантиметр',
@@ -86,7 +86,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'СМ',
                 'shortNameInternational' => 'cm',
                 'literalNameInternational' => 'CMT',
-                'type' => 'decimal'
+                'type' => 'decimal',
             ],
             [
                 'name' => 'Миллиметр',
@@ -94,7 +94,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'ММ',
                 'shortNameInternational' => 'mm',
                 'literalNameInternational' => 'MMT',
-                'type' => 'decimal'
+                'type' => 'decimal',
             ],
             [
                 'name' => 'Метр',
@@ -102,7 +102,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'М',
                 'shortNameInternational' => 'm',
                 'literalNameInternational' => 'MTR',
-                'type' => 'decimal'
+                'type' => 'decimal',
             ],
             [
                 'name' => 'Комплект',
@@ -110,7 +110,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'КОМПЛ',
                 'shortNameInternational' => 'set',
                 'literalNameInternational' => 'SET',
-                'type' => 'integer'
+                'type' => 'integer',
             ],
             [
                 'name' => 'Килограмм',
@@ -118,7 +118,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'КГ',
                 'shortNameInternational' => 'kg',
                 'literalNameInternational' => 'KGM',
-                'type' => 'decimal'
+                'type' => 'decimal',
             ],
             [
                 'name' => 'Квадратный метр',
@@ -126,7 +126,7 @@ class LoadUnitData extends AbstractFixture implements ContainerAwareInterface, O
                 'literalNameNational' => 'М2',
                 'shortNameInternational' => 'm2',
                 'literalNameInternational' => 'MTK',
-                'type' => 'decimal'
+                'type' => 'decimal',
             ],
         ];
 

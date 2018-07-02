@@ -70,7 +70,7 @@ class LoadCurrencyData extends AbstractFixture implements ContainerAwareInterfac
                 'rate' => 1,
                 'sign' => 'руб.',
                 'symbol' => 'руб.',
-                'cbrf' => false
+                'cbrf' => false,
             ],
             [
                 'name' => 'Евро',
@@ -78,7 +78,7 @@ class LoadCurrencyData extends AbstractFixture implements ContainerAwareInterfac
                 'rate' => 70,
                 'sign' => 'евро',
                 'symbol' => 'евро',
-                'cbrf' => true
+                'cbrf' => true,
             ],
             [
                 'name' => 'Доллар',
@@ -86,7 +86,7 @@ class LoadCurrencyData extends AbstractFixture implements ContainerAwareInterfac
                 'rate' => 60,
                 'sign' => 'доллар',
                 'symbol' => '$',
-                'cbrf' => true
+                'cbrf' => true,
             ],
         ];
 

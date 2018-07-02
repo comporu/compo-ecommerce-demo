@@ -79,7 +79,7 @@ class LoadCountryData extends AbstractFixture implements ContainerAwareInterface
             [
                 'name' => 'США',
                 'code' => 'US',
-            ]
+            ],
         ];
 
         foreach ($countryData as $item) {
