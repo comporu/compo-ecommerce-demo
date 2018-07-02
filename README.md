@@ -8,7 +8,7 @@ Ecommerce demo project based on CompoSymfonyCms.
 
 Branch | Travis | Buddy | Site |
 ------ | ------ | ----- | ---- |
-develop| [![Build Status](https://travis-ci.com/comporu/compo-ecommerce-demo.svg?token=Wm83L8fq2&branch=develop)](https://travis-ci.com/comporu/compo-ecommerce-demo) | [![buddy pipeline](https://app.buddy.works/comporu/compo-ecommerce-demo/pipelines/pipeline/137500/badge.svg?token=fc1497672c816787d99074f21845ccc61876 "buddy pipeline")](https://app.buddy.works/comporu/compo-ecommerce-demo/pipelines/pipeline/13700) | http://ecommerce.compo-symfony-cms.ru/ |
+develop| [![Build Status](https://travis-ci.com/comporu/compo-ecommerce-demo.svg?token=o9EfRH4zcftTqZDfmkkz&branch=master)](https://travis-ci.com/comporu/compo-ecommerce-demo) | [![buddy pipeline](https://app.buddy.works/comporu/compo-ecommerce-demo/pipelines/pipeline/142712/badge.svg?token=fc1497672c816787d99074f21845ccc6843d7bb0f1151cd28e3d2d9a99711876 "buddy pipeline")](https://app.buddy.works/comporu/compo-ecommerce-demo/pipelines/pipeline/142712) | http://ecommerce.compo-symfony-cms.ru/ |
 
 ## Installation
 
