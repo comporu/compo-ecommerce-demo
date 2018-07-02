@@ -11,6 +11,7 @@
 
 namespace CompoEcommerceDemo\AppBundle\DataFixtures;
 
+use Compo\CountryBundle\Entity\Country;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
@@ -62,5 +63,34 @@ class LoadCountryData extends AbstractFixture implements ContainerAwareInterface
      */
     public function load(ObjectManager $manager)
     {
+        $countryData = [
+            [
+                'name' => 'Россия',
+                'code' => 'RU',
+            ],
+            [
+                'name' => 'Беларусь',
+                'code' => 'BY',
+            ],
+            [
+                'name' => 'Казахстан',
+                'code' => 'KZ',
+            ],
+            [
+                'name' => 'США',
+                'code' => 'US',
+            ]
+        ];
+
+        foreach ($countryData as $item) {
+            $country = new Country();
+            $country->setEnabled(true);
+            $country->setName($item['name']);
+            $country->setCode($item['code']);
+
+            $manager->persist($country);
+        }
+
+        $manager->flush();
     }
 }
