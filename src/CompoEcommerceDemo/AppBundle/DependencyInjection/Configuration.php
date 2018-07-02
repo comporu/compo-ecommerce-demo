@@ -24,6 +24,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('title')->defaultValue('CompoEcommerceDemo')->end()
             ->end()
         ;
+
         return $treeBuilder;
     }
 }

@@ -11,9 +11,6 @@
 
 namespace CompoEcommerceDemo\AppBundle\DataFixtures;
 
-use Compo\AdvantagesBundle\Entity\Advantages;
-use Compo\AdvantagesBundle\Entity\AdvantagesItem;
-use Compo\Sonata\MediaBundle\Entity\Media;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
@@ -65,6 +62,5 @@ class LoadDeliveryData extends AbstractFixture implements ContainerAwareInterfac
      */
     public function load(ObjectManager $manager)
     {
-
     }
 }

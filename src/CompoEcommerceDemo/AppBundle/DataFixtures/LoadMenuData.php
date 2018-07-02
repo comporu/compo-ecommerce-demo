@@ -74,7 +74,6 @@ class LoadMenuData extends AbstractFixture implements ContainerAwareInterface, O
         $menuItemRoot->setMenu($menu);
         $manager->persist($menuItemRoot);
 
-
         $menuItem = new MenuItem();
         $menuItem->setName('Articles');
         $menuItem->setUrl('/articles/');
