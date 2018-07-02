@@ -11,6 +11,7 @@
 
 namespace CompoEcommerceDemo\AppBundle\DataFixtures;
 
+use Compo\CatalogBundle\Entity\Catalog;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
@@ -62,5 +63,40 @@ class LoadCatalogData extends AbstractFixture implements ContainerAwareInterface
      */
     public function load(ObjectManager $manager)
     {
+        $rootCatalog = new Catalog();
+        $rootCatalog->setEnabled(true);
+        $rootCatalog->setName('Каталог');
+
+        $manager->persist($rootCatalog);
+
+        $catalog = new Catalog();
+        $catalog->setEnabled(true);
+        $catalog->setName('Плитка');
+        $catalog->setParent($rootCatalog);
+
+        $manager->persist($catalog);
+
+        $catalog1 = new Catalog();
+        $catalog1->setEnabled(true);
+        $catalog1->setName('Сантехника');
+        $catalog1->setParent($rootCatalog);
+
+        $manager->persist($catalog1);
+
+        $catalog2 = new Catalog();
+        $catalog2->setEnabled(true);
+        $catalog2->setName('Ванные');
+        $catalog2->setParent($catalog1);
+
+        $manager->persist($catalog2);
+
+        $catalog2 = new Catalog();
+        $catalog2->setEnabled(true);
+        $catalog2->setName('Смесители');
+        $catalog2->setParent($catalog1);
+
+        $manager->persist($catalog2);
+
+        $manager->flush();
     }
 }
