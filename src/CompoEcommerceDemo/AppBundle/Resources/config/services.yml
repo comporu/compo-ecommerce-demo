@@ -42,3 +42,91 @@ services:
   compo_ecommerce_demo.fixture.social:
       class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadSocialData
       tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.basket:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadBasketData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.catalog:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadCatalogData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.country:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadCountryData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.currency:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadCurrencyData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.customer:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadCustomerData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.delivery:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadDeliveryData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.discount:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadDiscountData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.ecommerce:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadEcommerceData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.features:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadFeaturesData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.google_merchant:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadGoogleMerchantData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.manufacture:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadManufactureData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.order:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadOrderData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.payment:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPaymentData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.product:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadProductData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.promo_code:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPromoCodeData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.promotion:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPromotionCodeData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.service:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadServiceData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.supplier:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadSupplierData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.synchronization:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadSynchronizationData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.tagging:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadTaggingData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.unit:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadUnitData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.yandex_market:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadYandexMarketData
+      tags: ['doctrine.fixture.orm']
