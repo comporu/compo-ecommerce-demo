@@ -52,6 +52,12 @@ Assetic dump
 docker-compose exec php bin/console assetic:dump --env=prod
 ```
 
+Create ElasticSearch index
+
+```bash
+docker-compose exec php bin/console fos:elastica:populate -vvv --no-debug --max-per-page=1000
+```
+
 Restart services
 
 ```bash
@@ -59,8 +65,13 @@ docker-compose restart php
 docker-compose restart nginx
 ```
 
+Visit https://localhost/
 
-Visit https://localhost:8080/
+Admin https://localhost/admin
+
+Default login/password for dev environment: ecommerce/ecommerce
+
+Default login/password for admin: admin/admin
 
 
 ## Documentation

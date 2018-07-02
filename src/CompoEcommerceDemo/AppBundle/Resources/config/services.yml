@@ -1,0 +1,44 @@
+services:
+  compo_ecommerce_demo.fixture.advantages:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadAdvantagesData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.articles:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadArticlesData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.banner:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadBannerData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.contacts:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadContactsData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.faq:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadFaqData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.feedback:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadFeedbackData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.menu:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadMenuData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.news:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadNewsData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.page:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPageData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.redirect:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadRedirectData
+      tags: ['doctrine.fixture.orm']
+
+  compo_ecommerce_demo.fixture.social:
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadSocialData
+      tags: ['doctrine.fixture.orm']
