@@ -104,7 +104,7 @@ services:
       tags: ['doctrine.fixture.orm']
 
   compo_ecommerce_demo.fixture.promotion:
-      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPromotionCodeData
+      class: CompoEcommerceDemo\AppBundle\DataFixtures\LoadPromotionData
       tags: ['doctrine.fixture.orm']
 
   compo_ecommerce_demo.fixture.service:
