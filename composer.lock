@@ -614,12 +614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/comporu/compo-core.git",
-                "reference": "f5816653404ce8ce64e4af9b4a5ec7e1ebdc0c93"
+                "reference": "8190716a2064db07598deee26c2d4b706e473122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/comporu/compo-core/zipball/f5816653404ce8ce64e4af9b4a5ec7e1ebdc0c93",
-                "reference": "f5816653404ce8ce64e4af9b4a5ec7e1ebdc0c93",
+                "url": "https://api.github.com/repos/comporu/compo-core/zipball/8190716a2064db07598deee26c2d4b706e473122",
+                "reference": "8190716a2064db07598deee26c2d4b706e473122",
                 "shasum": ""
             },
             "require": {
@@ -721,7 +721,7 @@
                 "sonata",
                 "symfony"
             ],
-            "time": "2018-07-02T09:26:24+00:00"
+            "time": "2018-07-02T12:55:31+00:00"
         },
         {
             "name": "comporu/compo-ecommerce",
@@ -729,12 +729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/comporu/compo-ecommerce.git",
-                "reference": "e5540d4d56bde5b1b21ef8bf02ae31349fcff388"
+                "reference": "484879203ace4f5a150b7020b32e802deda0fdcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/comporu/compo-ecommerce/zipball/e5540d4d56bde5b1b21ef8bf02ae31349fcff388",
-                "reference": "e5540d4d56bde5b1b21ef8bf02ae31349fcff388",
+                "url": "https://api.github.com/repos/comporu/compo-ecommerce/zipball/484879203ace4f5a150b7020b32e802deda0fdcb",
+                "reference": "484879203ace4f5a150b7020b32e802deda0fdcb",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 "sonata",
                 "symfony"
             ],
-            "time": "2018-06-28T10:35:27+00:00"
+            "time": "2018-07-02T12:55:31+00:00"
         },
         {
             "name": "composer/ca-bundle",
