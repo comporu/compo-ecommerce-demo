@@ -103,7 +103,11 @@
             "./bower.json",
             "./vendor/comporu/compo-core/src/Compo/CoreBundle/Resources/public/js/app/bower.json",
             "./vendor/comporu/compo-core/src/Compo/FeedbackBundle/Resources/public/js/app/bower.json",
-            "./vendor/comporu/compo-core/src/Compo/SeoBundle/Resources/public/js/app/bower.json"
+            "./vendor/comporu/compo-core/src/Compo/SeoBundle/Resources/public/js/app/bower.json",
+            "./vendor/comporu/compo-ecommerce/src/Compo/EcommerceBundle/Resources/public/js/app/bower.json",
+            "./vendor/comporu/compo-ecommerce/src/Compo/CatalogBundle/Resources/public/js/app/bower.json",
+            "./vendor/comporu/compo-ecommerce/src/Compo/BasketBundle/Resources/public/js/app/bower.json",
+            "./vendor/comporu/compo-ecommerce/src/Compo/ProductBundle/Resources/public/js/app/bower.json"
         ]
     }
 }
